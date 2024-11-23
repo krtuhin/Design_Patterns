@@ -9,6 +9,10 @@ public class Student {
     // constructor
     private Student() {
 
+        // prevention of breaking singleton pattern using reflection API
+        if (student != null)
+            throw new RuntimeException("You're trying to break singleton pattern.");
+
     }
 
     // method to get object
