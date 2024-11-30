@@ -34,6 +34,9 @@ public class Main {
             e.printStackTrace();
         }
 
+        networkConnection.getDomains().remove(0);
+        System.out.println(networkConnection);
+
         System.out.println(connection);
 
     }
