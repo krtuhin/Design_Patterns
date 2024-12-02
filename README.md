@@ -61,3 +61,17 @@ So in builder pattern be create object step by step and finally return final obj
     . Shallow Copy -> When copying an object, if the object has another object as a property, the new object will copy the reference of that property object. Hence, if we change any property of the object from any object, it will also reflect on all other objects, as it copies the reference only, not the actual object.
 
     . Deep Copy -> Unlike the shallow copy, it copies all the objects rather than the reference of the same objects.
+
+#### Observer Design Pattern :
+
+    -> It is behavioural Design pattern.
+    -> In this when subject changes the state all its dependent objects notified the changes.
+    -> One to many relation.
+
+#### Iterator Design Pattern
+
+    -> The iterator pattern provides a way to access the elements of an object without exposing its underlying implementation.
+
+#### Adapter Design Pattern :
+
+    -> When two Objects are incompatible with each other, then with the adapter class we can provide an interface so the objects can be compatible with each other.
